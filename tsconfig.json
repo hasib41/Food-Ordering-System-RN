@@ -3,10 +3,12 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "@/*": ["src/*"],
+      "@assets/*" : ["assets/*"],
+      "@components/*": ["src/component/*"] 
+    },
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "**/*.ts",
